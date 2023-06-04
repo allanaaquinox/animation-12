@@ -1,0 +1,86 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: relative;
+    flex-direction: column;
+    border: 2px solid rgb(245, 143, 160);
+    background-color: rgb(252, 227, 227);
+    animation: 3s form linear;
+}
+
+.email-ca{
+    width: 200px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.senha-ca{
+    width: 200px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.email{
+    width: 250px;
+    height: 25px;
+    padding-left: 40px;
+}
+
+.senha{
+    width: 250px;
+    height: 25px;
+    padding-left: 40px;
+}
+
+.entrar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: beige;
+
+}
+
+.cadastrar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: beige;
+}
+
+
+@keyframes form {
+    0%{
+        -webkit-transform : translateX(0px) translateY(-800px);
+        -ms-transform     : translateX(0px) translateY(-800px);
+        transform         : translateX(0px) translateY(-800px);
+    }
+    100%{
+        -webkit-transform : translateX(0px) translateY(0px);
+        -ms-transform     : translateX(0px) translateY(0px);
+        transform         : translateX(0px) translateY(0px);
+    }
+
+}
